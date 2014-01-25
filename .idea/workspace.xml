@@ -1,65 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97dd3fda-ba06-43ee-8818-edf9cdff236c" name="Default" comment="&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+    <list default="true" id="97dd3fda-ba06-43ee-8818-edf9cdff236c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ScrewCharlie.iml" afterPath="$PROJECT_DIR$/.idea/ScrewCharlie.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/board.rb" afterPath="$PROJECT_DIR$/app/models/board.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/board_spec.rb" afterPath="$PROJECT_DIR$/spec/models/board_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/boards.rb" afterPath="$PROJECT_DIR$/spec/factories/boards.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/card.rb" afterPath="$PROJECT_DIR$/app/models/card.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/card_spec.rb" afterPath="$PROJECT_DIR$/spec/models/card_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/cards.rb" afterPath="$PROJECT_DIR$/spec/factories/cards.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/deck.rb" afterPath="$PROJECT_DIR$/app/models/deck.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/deck_spec.rb" afterPath="$PROJECT_DIR$/spec/models/deck_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/decks.rb" afterPath="$PROJECT_DIR$/spec/factories/decks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/draw_card.rb" afterPath="$PROJECT_DIR$/app/models/draw_card.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/draw_card_spec.rb" afterPath="$PROJECT_DIR$/spec/models/draw_card_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/draw_cards.rb" afterPath="$PROJECT_DIR$/spec/factories/draw_cards.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/draw_pile.rb" afterPath="$PROJECT_DIR$/app/models/draw_pile.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/draw_pile_spec.rb" afterPath="$PROJECT_DIR$/spec/models/draw_pile_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/draw_piles.rb" afterPath="$PROJECT_DIR$/spec/factories/draw_piles.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/create.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/create.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/create.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/create.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player_session/create.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player_session/create.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/destroy.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/destroy.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/destroy.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/destroy.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player_session/destroy.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player_session/destroy.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/edit.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/edit.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/edit.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/edit.html.slim_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/game.rb" afterPath="$PROJECT_DIR$/app/models/game.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/game_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/game_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/game_player.rb" afterPath="$PROJECT_DIR$/app/models/game_player.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/game_player_spec.rb" afterPath="$PROJECT_DIR$/spec/models/game_player_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/game_players.rb" afterPath="$PROJECT_DIR$/spec/factories/game_players.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/game_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/game_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/game_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/game_helper_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/game_spec.rb" afterPath="$PROJECT_DIR$/spec/models/game_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/games.rb" afterPath="$PROJECT_DIR$/spec/factories/games.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/hand.rb" afterPath="$PROJECT_DIR$/app/models/hand.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/hand_spec.rb" afterPath="$PROJECT_DIR$/spec/models/hand_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/hands.rb" afterPath="$PROJECT_DIR$/spec/factories/hands.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/move.rb" afterPath="$PROJECT_DIR$/app/models/move.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/move_card.rb" afterPath="$PROJECT_DIR$/app/models/move_card.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/home_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/home_helper_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/index.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/index.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/home/index.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/home/index.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/index.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/index.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/join.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/join.html.slim_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/move_card_spec.rb" afterPath="$PROJECT_DIR$/spec/models/move_card_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/move_cards.rb" afterPath="$PROJECT_DIR$/spec/factories/move_cards.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/moves.rb" afterPath="$PROJECT_DIR$/spec/factories/moves.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/play_card.rb" afterPath="$PROJECT_DIR$/app/models/play_card.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/new.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/new.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/new.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/new.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/play.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/play.html.slim_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/play_card_spec.rb" afterPath="$PROJECT_DIR$/spec/models/play_card_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/play_cards.rb" afterPath="$PROJECT_DIR$/spec/factories/play_cards.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/player.rb" afterPath="$PROJECT_DIR$/app/models/player.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/player_action.rb" afterPath="$PROJECT_DIR$/app/models/player_action.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/player_action_spec.rb" afterPath="$PROJECT_DIR$/spec/models/player_action_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/player_actions.rb" afterPath="$PROJECT_DIR$/spec/factories/player_actions.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/player_session.rb" afterPath="$PROJECT_DIR$/app/models/player_session.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/player_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/player_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/player_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/player_helper_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/player_session_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/player_session_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/player_session_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/player_session_helper_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/player_session_spec.rb" afterPath="$PROJECT_DIR$/spec/models/player_session_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/player_sessions.rb" afterPath="$PROJECT_DIR$/spec/factories/player_sessions.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/player_spec.rb" afterPath="$PROJECT_DIR$/spec/models/player_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/players.rb" afterPath="$PROJECT_DIR$/spec/factories/players.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/slot.rb" afterPath="$PROJECT_DIR$/app/models/slot.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/show.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/show.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/show.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/show.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player_session/show.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player_session/show.html.slim_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/slot_spec.rb" afterPath="$PROJECT_DIR$/spec/models/slot_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/slots.rb" afterPath="$PROJECT_DIR$/spec/factories/slots.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/turn.rb" afterPath="$PROJECT_DIR$/app/models/turn.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/turn_spec.rb" afterPath="$PROJECT_DIR$/spec/models/turn_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/turns.rb" afterPath="$PROJECT_DIR$/spec/factories/turns.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/update.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/update.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/update.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/update.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player_session/update.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player_session/update.html.slim_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScrewCharlie.iws" />
@@ -72,14 +55,23 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ScrewCharlie@All_specs_in_models__ScrewCharlie.coverage" NAME="All specs in models: ScrewCharlie Coverage Results" MODIFIED="1390660459540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@All_specs_in_helpers__ScrewCharlie.coverage" NAME="All specs in helpers: ScrewCharlie Coverage Results" MODIFIED="1390660241340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@db_create__ScrewCharlie.coverage" NAME="db:create: ScrewCharlie Coverage Results" MODIFIED="1390654144499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
-    <SUITE FILE_PATH="coverage/ScrewCharlie@db_seed__ScrewCharlie.coverage" NAME="db:seed: ScrewCharlie Coverage Results" MODIFIED="1390657774072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
-    <SUITE FILE_PATH="coverage/ScrewCharlie@db_migrate__ScrewCharlie.coverage" NAME="db:migrate: ScrewCharlie Coverage Results" MODIFIED="1390654154800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@db_drop__ScrewCharlie.coverage" NAME="db:drop: ScrewCharlie Coverage Results" MODIFIED="1390652055353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
-    <SUITE FILE_PATH="coverage/ScrewCharlie@Development__ScrewCharlie.coverage" NAME="Development: ScrewCharlie Coverage Results" MODIFIED="1390657675148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
-    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__game_spec___ScrewCharlie.coverage" NAME="Run spec 'game_spec': ScrewCharlie Coverage Results" MODIFIED="1390658131970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__deck_spec___ScrewCharlie.coverage" NAME="Run spec 'deck_spec': ScrewCharlie Coverage Results" MODIFIED="1390657996536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
-    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__card_spec___ScrewCharlie.coverage" NAME="Run spec 'card_spec': ScrewCharlie Coverage Results" MODIFIED="1390658203117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__index_html_slim_spec___ScrewCharlie.coverage" NAME="Run spec 'index.html.slim_spec': ScrewCharlie Coverage Results" MODIFIED="1390660269627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__draw_pile_spec___ScrewCharlie.coverage" NAME="Run spec 'draw_pile_spec': ScrewCharlie Coverage Results" MODIFIED="1390660835227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__hand_spec___ScrewCharlie.coverage" NAME="Run spec 'hand_spec': ScrewCharlie Coverage Results" MODIFIED="1390659279982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__card_spec___ScrewCharlie.coverage" NAME="Run spec 'card_spec': ScrewCharlie Coverage Results" MODIFIED="1390659313438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@All_specs_in_views__ScrewCharlie.coverage" NAME="All specs in views: ScrewCharlie Coverage Results" MODIFIED="1390660444564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@db_seed__ScrewCharlie.coverage" NAME="db:seed: ScrewCharlie Coverage Results" MODIFIED="1390659124332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@db_migrate__ScrewCharlie.coverage" NAME="db:migrate: ScrewCharlie Coverage Results" MODIFIED="1390658973346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@Development__ScrewCharlie.coverage" NAME="Development: ScrewCharlie Coverage Results" MODIFIED="1390657675148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__game_player_spec___ScrewCharlie.coverage" NAME="Run spec 'game_player_spec': ScrewCharlie Coverage Results" MODIFIED="1390660753116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__game_spec___ScrewCharlie.coverage" NAME="Run spec 'game_spec': ScrewCharlie Coverage Results" MODIFIED="1390660734387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@All_specs_in_controllers__ScrewCharlie.coverage" NAME="All specs in controllers: ScrewCharlie Coverage Results" MODIFIED="1390660195490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@All_specs_in_spec__ScrewCharlie.coverage" NAME="All specs in spec: ScrewCharlie Coverage Results" MODIFIED="1390659512715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -93,64 +85,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="player.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/player.rb">
+      <file leaf-file-name="update.html.slim_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/views/player/update.html.slim_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player_action.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/player_action.rb">
+      <file leaf-file-name="create.html.slim_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/views/player_session/create.html.slim_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deck_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/deck_spec.rb">
+      <file leaf-file-name="destroy.html.slim_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/views/player_session/destroy.html.slim_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
+            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/models/card_spec.rb">
+      <file leaf-file-name="show.html.slim_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/views/player_session/show.html.slim_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="365" selection-end="365" vertical-scroll-proportion="0.51403886" vertical-offset="119" max-vertical-offset="1596">
+            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <file leaf-file-name="update.html.slim_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/views/player_session/update.html.slim_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1008">
+            <state line="5" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="draw_card_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/draw_card_spec.rb">
+      <file leaf-file-name="index.html.slim_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/views/deck/index.html.slim_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="0" column="6" selection-start="0" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="draw_pile_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/draw_pile_spec.rb">
+      <file leaf-file-name="game.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+            <state line="115" column="24" selection-start="2930" selection-end="2930" vertical-scroll-proportion="0.0" vertical-offset="2310" max-vertical-offset="3171">
               <folding />
             </state>
           </provider>
@@ -159,7 +151,16 @@
       <file leaf-file-name="game_player_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/game_player_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="33" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="609">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draw_pile_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/models/draw_pile_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.152439" vertical-offset="378" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -168,16 +169,7 @@
       <file leaf-file-name="game_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/game_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="35" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3087">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="board_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/board_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+            <state line="14" column="25" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="3108">
               <folding />
             </state>
           </provider>
@@ -204,32 +196,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/game/index.html.slim" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/screwcharlie.css" />
-        <option value="$PROJECT_DIR$/db/migrate/20130906031716_add_client_id_to_card.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/card.js" />
-        <option value="$PROJECT_DIR$/db/migrate/20130906040313_add_client_id_to_boards.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130906040449_add_client_id_to_deck.rb" />
-        <option value="$PROJECT_DIR$/app/models/deck.rb" />
-        <option value="$PROJECT_DIR$/app/models/board.rb" />
-        <option value="$PROJECT_DIR$/app/views/game/play.html.slim" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/game.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/game_controller.rb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/helpers/game_helper.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/models/card.rb" />
         <option value="$PROJECT_DIR$/spec/models/deck_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/models/board_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/draw_card_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/draw_pile_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/game_player_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/models/game_spec.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/spec/models/card_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/board_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/hand_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/move_card_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/play_card_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/player_action_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/player_session_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/player_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/slot_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/turn_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/game_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/player_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/player_session_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/helpers/deck_helper_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/helpers/game_helper_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/helpers/home_helper_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/helpers/player_helper_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/helpers/player_session_helper_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/deck_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/deck/index.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/game/create.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/game/destroy.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/game/edit.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/game/index.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/game/join.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/game/new.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/game/play.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/game/show.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/game/update.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/home/index.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player/create.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player/destroy.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player/edit.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player/index.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player/new.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player/show.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player/update.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player_session/create.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player_session/destroy.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player_session/show.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/views/player_session/update.html.slim_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/game_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/game.rb" />
       </list>
     </option>
   </component>
@@ -338,7 +355,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player_session" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,7 +373,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,7 +395,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScrewCharlie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screw-charlie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScrewCharlie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screw-charlie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScrewCharlie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screw-charlie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -401,8 +496,8 @@
       <recent name="C:\Working\ScrewCharlie\spec\factories" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'card_spec': ScrewCharlie">
-    <configuration default="false" name="Run spec 'deck_spec': ScrewCharlie" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.Run spec 'draw_pile_spec': ScrewCharlie">
+    <configuration default="false" name="All specs in models: ScrewCharlie" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ScrewCharlie" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -422,12 +517,12 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/deck_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/spec/models" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
@@ -438,63 +533,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="db:migrate: ScrewCharlie" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="ScrewCharlie" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="db:seed: ScrewCharlie" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="ScrewCharlie" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:seed" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Run spec 'card_spec': ScrewCharlie" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="All specs in views: ScrewCharlie" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ScrewCharlie" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -514,12 +553,12 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/card_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/spec/views" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
@@ -552,6 +591,78 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/game_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run spec 'game_player_spec': ScrewCharlie" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ScrewCharlie" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/game_player_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run spec 'draw_pile_spec': ScrewCharlie" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ScrewCharlie" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/draw_pile_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
@@ -729,19 +840,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rails.Development: ScrewCharlie" />
       <item index="2" class="java.lang.String" itemvalue="Rake.test" />
       <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'deck_spec': ScrewCharlie" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate: ScrewCharlie" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:seed: ScrewCharlie" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.Run spec 'card_spec': ScrewCharlie" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.Run spec 'game_spec': ScrewCharlie" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in models: ScrewCharlie" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.All specs in views: ScrewCharlie" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.Run spec 'game_spec': ScrewCharlie" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.Run spec 'game_player_spec': ScrewCharlie" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.Run spec 'draw_pile_spec': ScrewCharlie" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'card_spec': ScrewCharlie" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'game_spec': ScrewCharlie" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'deck_spec': ScrewCharlie" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.db:seed: ScrewCharlie" />
-        <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate: ScrewCharlie" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'draw_pile_spec': ScrewCharlie" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'game_player_spec': ScrewCharlie" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'game_spec': ScrewCharlie" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in models: ScrewCharlie" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in views: ScrewCharlie" />
       </list>
     </recent_temporary>
   </component>
@@ -769,6 +880,11 @@
       <created>1376348051195</created>
       <updated>1376348051195</updated>
     </task>
+    <task id="LOCAL-00001" summary="&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;">
+      <created>1390658600411</created>
+      <updated>1390658600411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -778,22 +894,22 @@
       <window_info id="Dilbert" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.7557998" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39845476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4348786" sideWeight="0.2893773" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2735043" sideWeight="0.5649652" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39907193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4348786" sideWeight="0.2893773" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4348786" sideWeight="0.7106227" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5838852" sideWeight="0.7106227" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Routes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42936116" sideWeight="0.5649652" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -830,159 +946,93 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/card.js">
+    <entry file="file://$PROJECT_DIR$/spec/helpers/home_helper_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/deck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/token.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/spec/helpers/player_helper_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130812230610_create_database.rb">
+    <entry file="file://$PROJECT_DIR$/spec/helpers/player_session_helper_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130906031716_add_client_id_to_card.rb">
+    <entry file="file://$PROJECT_DIR$/spec/helpers/deck_helper_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130906040313_add_client_id_to_boards.rb">
+    <entry file="file://$PROJECT_DIR$/spec/helpers/game_helper_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130906040449_add_client_id_to_deck.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/arel-4.0.1/lib/arel/table.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+        <state line="110" column="0" selection-start="2571" selection-end="2571" vertical-scroll-proportion="0.0" vertical-offset="2149" max-vertical-offset="3549">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/game_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/game_player.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/hand.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="70" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="210">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/move.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/deck.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/game/create.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/game/destroy.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/deck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130812230610_create_database.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1932">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130906031716_add_client_id_to_card.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/card.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130906040313_add_client_id_to_boards.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130906040449_add_client_id_to_deck.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/hand.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="49" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="924" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/board.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/game/index.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="103" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="147">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3738">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1281">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/deck_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499">
           <folding />
         </state>
       </provider>
@@ -994,177 +1044,263 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/player_session_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="487">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/deck_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="487">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/home_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="487">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/player_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/player_session_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/game_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/game_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="51" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/token.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="50" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/draw_pile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1029">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/draw_card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/move_card.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/player_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/play_card.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract_mysql_adapter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
+        <state line="458" column="0" selection-start="14832" selection-end="14832" vertical-scroll-proportion="0.0" vertical-offset="9461" max-vertical-offset="16548">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/player.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/deck.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/deck_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="485">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/player_action.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/boards.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="485">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/board_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/cards.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/deck_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/draw_cards.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="485">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/draw_card_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/games.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/draw_pile_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/hands.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="485">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/game_player_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/controllers/deck_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/game/create.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/game/destroy.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/game/edit.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/game/index.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/game/join.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/game/new.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/game/play.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/game/show.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/game/update.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/home/index.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player/create.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player/destroy.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player/edit.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player/index.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player/new.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player/show.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player/update.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player_session/create.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player_session/destroy.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player_session/show.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/player_session/update.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/views/deck/index.html.slim_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="0" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/game_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3087">
+        <state line="14" column="25" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="3108">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1008">
+        <state line="115" column="24" selection-start="2930" selection-end="2930" vertical-scroll-proportion="0.0" vertical-offset="2310" max-vertical-offset="3171">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/card_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/game_player_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="365" selection-end="365" vertical-scroll-proportion="0.51403886" vertical-offset="119" max-vertical-offset="1596">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/draw_pile_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.152439" vertical-offset="378" max-vertical-offset="714">
           <folding />
         </state>
       </provider>

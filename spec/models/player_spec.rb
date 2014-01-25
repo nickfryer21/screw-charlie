@@ -6,7 +6,7 @@
 #  screen_name :string(255)
 #
 
-require 'spec_helper'
+require_relative '../spec_helper'
 
 describe Player do
   describe  '::get_player_options_for_select' do

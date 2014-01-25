@@ -10,8 +10,9 @@
 #  active      :boolean          default(FALSE)
 #
 
-require_relative '/spec/spec_helper'
-require '/lib/utilities/token'
+require_relative '../spec_helper'
+
+require_relative '../../lib/utils/token'
 
 describe Game do
   before(:all) do

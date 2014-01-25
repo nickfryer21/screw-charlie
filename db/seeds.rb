@@ -35,7 +35,7 @@ class SeedHelper
   def migrate_test
     build_players
     build_games
-    PlayerSession.create token: 'fake-token', players: Player.find(1)
+    PlayerSession.create token: 'fake-token', player: Player.find(1)
   end
 
   def build_players

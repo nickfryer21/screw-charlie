@@ -37,7 +37,7 @@ class Game < ActiveRecord::Base
     end
   end
 
-  # returns the players of the active turn
+  # returns the player currently taking their turn
   # @return [GamePlayer]
   def whose_turn
     self.advance_turn unless self.active_slot
@@ -79,7 +79,7 @@ class Game < ActiveRecord::Base
   end
 
   def advance_turn
-    # If no slot is active or we have reach the last slot start over with 1 (it is the first players turn)
+    # If no slot is active or we have reached the last slot start over with 1 (it is the first players turn)
     if self.active_slot.nil? || (self.active_slot == self.slots.max_by { |slot| slot.sequence }.sequence)
       self.active_slot = 1
     else
@@ -103,17 +103,17 @@ class Game < ActiveRecord::Base
   end
 
   ##
-  # Finds all games for which the specified can join. A players
-  # may join a game that has open slots or that players has already
+  # Finds all games for which the specified player can join. A player
+  # may join a game that has open slots or that the player has already
   # previously joined. The game must also be currently active.
   #
-  # Returns an array of games that players can joins
+  # Returns an array of games that players can join
   #
   # @param [Player] player
   # @return [Array]
   def Game.find_available_games(player)
     gt = Game.arel_table
-    st = Slot.arel_table;
+    st = Slot.arel_table
     pt = GamePlayer.arel_table
 
     open_games = Game.find_by_sql( gt.join(st)
@@ -131,7 +131,6 @@ class Game < ActiveRecord::Base
     available_games = (open_games + joined_games).uniq do |game|
       game.id
     end
-
 
     return available_games
   end
