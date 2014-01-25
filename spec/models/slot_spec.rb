@@ -1,3 +1,13 @@
+# == Schema Information
+#
+# Table name: slots
+#
+#  id        :integer          not null, primary key
+#  game_id   :integer
+#  available :boolean          default(TRUE)
+#  sequence  :integer
+#
+
 require 'spec_helper'
 
 describe Slot do

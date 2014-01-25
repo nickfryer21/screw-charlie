@@ -1,3 +1,12 @@
+# == Schema Information
+#
+# Table name: play_cards
+#
+#  id      :integer          not null, primary key
+#  hand_id :integer
+#  deck_id :integer
+#
+
 require 'spec_helper'
 
 describe PlayCard do

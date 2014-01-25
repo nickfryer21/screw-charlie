@@ -1,4 +1,13 @@
-require 'spec_helper'
+# == Schema Information
+#
+# Table name: decks
+#
+#  id        :integer          not null, primary key
+#  board_id  :integer
+#  client_id :string(16)
+#
+
+require_relative '../spec_helper'
 
 describe Deck do
     context 'Given a deck of cards with an Ace of Hearts, Ace of Clubs and Ace of Spades' do

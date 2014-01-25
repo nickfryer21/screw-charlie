@@ -1,4 +1,14 @@
-require 'spec_helper'
+# == Schema Information
+#
+# Table name: game_players
+#
+#  id        :integer          not null, primary key
+#  game_id   :integer
+#  player_id :integer
+#  slot_id   :integer
+#
+
+require_relative '../spec_helper'
 
 describe GamePlayer do
 

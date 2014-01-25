@@ -1,3 +1,13 @@
+# == Schema Information
+#
+# Table name: game_players
+#
+#  id        :integer          not null, primary key
+#  game_id   :integer
+#  player_id :integer
+#  slot_id   :integer
+#
+
 class GamePlayer < ActiveRecord::Base
   belongs_to :game
   belongs_to :player

@@ -1,4 +1,12 @@
-require 'spec_helper'
+# == Schema Information
+#
+# Table name: draw_piles
+#
+#  id      :integer          not null, primary key
+#  game_id :integer
+#
+
+require_relative '../spec_helper'
 
 describe DrawPile do
   describe '::build' do

@@ -1,3 +1,11 @@
+# == Schema Information
+#
+# Table name: turns
+#
+#  id             :integer          not null, primary key
+#  game_player_id :integer
+#
+
 require 'spec_helper'
 
 describe Turn do

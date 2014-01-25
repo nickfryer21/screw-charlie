@@ -1,3 +1,11 @@
+# == Schema Information
+#
+# Table name: draw_piles
+#
+#  id      :integer          not null, primary key
+#  game_id :integer
+#
+
 require 'concerns/pile_behavior'
 
 class DrawPile < ActiveRecord::Base

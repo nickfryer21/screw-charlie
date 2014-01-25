@@ -1,3 +1,13 @@
+# == Schema Information
+#
+# Table name: move_cards
+#
+#  id             :integer          not null, primary key
+#  source_deck_id :integer
+#  target_deck_id :integer
+#  card_id        :integer
+#
+
 class MoveCard < ActiveRecord::Base
   belongs_to :source_deck, :class_name => 'Deck'
   belongs_to :target_deck, :class_name => 'Deck'

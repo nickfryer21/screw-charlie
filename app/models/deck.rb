@@ -1,3 +1,12 @@
+# == Schema Information
+#
+# Table name: decks
+#
+#  id        :integer          not null, primary key
+#  board_id  :integer
+#  client_id :string(16)
+#
+
 class Deck < ActiveRecord::Base
 
   belongs_to :board

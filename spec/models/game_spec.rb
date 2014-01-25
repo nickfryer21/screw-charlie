@@ -1,5 +1,17 @@
-require 'spec_helper'
-require 'utils/token'
+# == Schema Information
+#
+# Table name: games
+#
+#  id          :integer          not null, primary key
+#  start_date  :datetime
+#  end_date    :datetime
+#  title       :string(255)
+#  active_slot :integer
+#  active      :boolean          default(FALSE)
+#
+
+require_relative '/spec/spec_helper'
+require '/lib/utilities/token'
 
 describe Game do
   before(:all) do

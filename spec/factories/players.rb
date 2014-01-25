@@ -1,3 +1,11 @@
+# == Schema Information
+#
+# Table name: players
+#
+#  id          :integer          not null, primary key
+#  screen_name :string(255)
+#
+
 # Read about factories at https://github.com/thoughtbot/factory_girl
 
 FactoryGirl.define do

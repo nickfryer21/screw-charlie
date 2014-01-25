@@ -1,4 +1,4 @@
-require 'lib/utils/token'
+require_relative '../../lib/utils/token'
 
 module GameHelper
 
