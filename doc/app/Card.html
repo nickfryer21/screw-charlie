@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<title>class Card - Rails Application Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>app/models/card.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">ActiveRecord::Base
+  
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-c-purge">::purge</a>
+    
+    <li><a href="#method-i-has_valid_suit-3F">#has_valid_suit?</a>
+    
+    <li><a href="#method-i-points">#points</a>
+    
+    <li><a href="#method-i-rank_in_range-3F">#rank_in_range?</a>
+    
+    <li><a href="#method-i-to_s">#to_s</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./README_rdoc.html">README</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./ApplicationController.html">ApplicationController</a>
+  
+    <li><a href="./ApplicationHelper.html">ApplicationHelper</a>
+  
+    <li><a href="./Board.html">Board</a>
+  
+    <li><a href="./Card.html">Card</a>
+  
+    <li><a href="./DataTools.html">DataTools</a>
+  
+    <li><a href="./Deck.html">Deck</a>
+  
+    <li><a href="./DrawCard.html">DrawCard</a>
+  
+    <li><a href="./DrawPile.html">DrawPile</a>
+  
+    <li><a href="./Game.html">Game</a>
+  
+    <li><a href="./GameController.html">GameController</a>
+  
+    <li><a href="./GameHelper.html">GameHelper</a>
+  
+    <li><a href="./GamePlayer.html">GamePlayer</a>
+  
+    <li><a href="./Hand.html">Hand</a>
+  
+    <li><a href="./HomeController.html">HomeController</a>
+  
+    <li><a href="./HomeHelper.html">HomeHelper</a>
+  
+    <li><a href="./Move.html">Move</a>
+  
+    <li><a href="./MoveCard.html">MoveCard</a>
+  
+    <li><a href="./PileBehavior.html">PileBehavior</a>
+  
+    <li><a href="./PlayCard.html">PlayCard</a>
+  
+    <li><a href="./Player.html">Player</a>
+  
+    <li><a href="./PlayerAction.html">PlayerAction</a>
+  
+    <li><a href="./PlayerController.html">PlayerController</a>
+  
+    <li><a href="./PlayerHelper.html">PlayerHelper</a>
+  
+    <li><a href="./PlayerSession.html">PlayerSession</a>
+  
+    <li><a href="./Slot.html">Slot</a>
+  
+    <li><a href="./Token.html">Token</a>
+  
+    <li><a href="./Turn.html">Turn</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class Card</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-purge" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">purge</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="purge-source">
+            <pre><span class="ruby-comment"># File app/models/card.rb, line 51</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">purge</span>
+  <span class="ruby-constant">ActiveRecord</span><span class="ruby-operator">::</span><span class="ruby-constant">Base</span><span class="ruby-operator">::</span><span class="ruby-identifier">connection</span>.<span class="ruby-identifier">execute</span> <span class="ruby-string">'truncate table cards'</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- purge-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- purge-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-has_valid_suit-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">has_valid_suit?</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="has_valid_suit-3F-source">
+            <pre><span class="ruby-comment"># File app/models/card.rb, line 45</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">has_valid_suit?</span>
+  <span class="ruby-keyword">unless</span> [<span class="ruby-value">:Hearts</span>, <span class="ruby-value">:Clubs</span>, <span class="ruby-value">:Spades</span>, <span class="ruby-value">:Diamonds</span>].<span class="ruby-identifier">include?</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">suit</span>.<span class="ruby-identifier">to_sym</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">errors</span>.<span class="ruby-identifier">add</span>(<span class="ruby-value">:base</span>, <span class="ruby-string">&quot;Never heard of that suit&quot;</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- has_valid_suit-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- has_valid_suit-3F-method -->
+
+    
+      <div id="method-i-points" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">points</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="points-source">
+            <pre><span class="ruby-comment"># File app/models/card.rb, line 28</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">points</span>
+  <span class="ruby-keyword">case</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">rank</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">1</span> <span class="ruby-keyword">then</span>
+      <span class="ruby-value">15</span>
+    <span class="ruby-keyword">when</span> (<span class="ruby-value">11</span><span class="ruby-operator">..</span><span class="ruby-value">13</span>) <span class="ruby-keyword">then</span>
+      <span class="ruby-value">10</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-value">5</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- points-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- points-method -->
+
+    
+      <div id="method-i-rank_in_range-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">rank_in_range?</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="rank_in_range-3F-source">
+            <pre><span class="ruby-comment"># File app/models/card.rb, line 39</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">rank_in_range?</span>
+  <span class="ruby-keyword">unless</span> (<span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-value">13</span>) <span class="ruby-operator">===</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">rank</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">errors</span>.<span class="ruby-identifier">add</span>(<span class="ruby-value">:rank</span>, <span class="ruby-string">&quot;Rank must be between 1-13&quot;</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- rank_in_range-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- rank_in_range-3F-method -->
+
+    
+      <div id="method-i-to_s" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">to_s</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="to_s-source">
+            <pre><span class="ruby-comment"># File app/models/card.rb, line 13</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">to_s</span>
+  <span class="ruby-keyword">case</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">rank</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">1</span> <span class="ruby-keyword">then</span>
+      <span class="ruby-string">'Ace'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">11</span> <span class="ruby-keyword">then</span>
+      <span class="ruby-string">'Jack'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">12</span> <span class="ruby-keyword">then</span>
+      <span class="ruby-string">'Queen'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">13</span> <span class="ruby-keyword">then</span>
+      <span class="ruby-string">'King'</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-keyword">self</span>.<span class="ruby-identifier">rank</span>.<span class="ruby-identifier">to_s</span>
+  <span class="ruby-keyword">end</span> <span class="ruby-operator">+</span> <span class="ruby-string">' of '</span> <span class="ruby-operator">+</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">suit</span>.<span class="ruby-identifier">to_s</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- to_s-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- to_s-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.2.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

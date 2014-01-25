@@ -1,0 +1,21 @@
+#!/usr/bin/env jruby.exe
+# Hack to explicitly remove server.pid on startup until issue is fixed in RubyMine / JRuby
+
+begin
+  pid_file = File.expand_path('../../tmp/pids/server.pid',  __FILE__)
+
+  if File.exists? pid_file then
+    File.open pid_file, 'r' do |f|
+      puts 'Previously executed on port: ' + f.readline
+    end
+
+    File.delete(pid_file)
+  end
+rescue
+  # Do nothing
+end
+
+
+APP_PATH = File.expand_path('../../config/application',  __FILE__)
+require_relative '../config/boot'
+require 'rails/commands'

@@ -1,0 +1,29 @@
+Tech constraints:
+Rails 4.0
+Active Record
+MySQL
+Slim
+jquery
+jquery-ui
+amplify
+javascript cookie library
+rspec
+
+Features:
+1. Build up UI enough that a turn can be submited (not validated)
+2. Undo and reset functionality
+3. Turn validation
+4. Pass turn to another player
+5. Determine if we have a winner and end game
+
+Wish List:
+1. Implement computer players
+2. Themes
+3. Tournement capability
+4. Custom cards
+5. Chat
+6. Score boards
+7. Facebook integration
+8. Host on Heroku or Google AppEngine
+9. Call as API for android
+10. Avatars

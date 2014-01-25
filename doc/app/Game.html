@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<title>class Game - Rails Application Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>app/models/game.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">ActiveRecord::Base
+  
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-c-find_available_games">::find_available_games</a>
+    
+    <li><a href="#method-i-add_player">#add_player</a>
+    
+    <li><a href="#method-i-add_slot">#add_slot</a>
+    
+    <li><a href="#method-i-add_slots">#add_slots</a>
+    
+    <li><a href="#method-i-advance_turn">#advance_turn</a>
+    
+    <li><a href="#method-i-can_add_player-3F">#can_add_player?</a>
+    
+    <li><a href="#method-i-can_start-3F">#can_start?</a>
+    
+    <li><a href="#method-i-deal_cards">#deal_cards</a>
+    
+    <li><a href="#method-i-play_game">#play_game</a>
+    
+    <li><a href="#method-i-player_status">#player_status</a>
+    
+    <li><a href="#method-i-start">#start</a>
+    
+    <li><a href="#method-i-whose_turn">#whose_turn</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./README_rdoc.html">README</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./ApplicationController.html">ApplicationController</a>
+  
+    <li><a href="./ApplicationHelper.html">ApplicationHelper</a>
+  
+    <li><a href="./Board.html">Board</a>
+  
+    <li><a href="./Card.html">Card</a>
+  
+    <li><a href="./DataTools.html">DataTools</a>
+  
+    <li><a href="./Deck.html">Deck</a>
+  
+    <li><a href="./DrawCard.html">DrawCard</a>
+  
+    <li><a href="./DrawPile.html">DrawPile</a>
+  
+    <li><a href="./Game.html">Game</a>
+  
+    <li><a href="./GameController.html">GameController</a>
+  
+    <li><a href="./GameHelper.html">GameHelper</a>
+  
+    <li><a href="./GamePlayer.html">GamePlayer</a>
+  
+    <li><a href="./Hand.html">Hand</a>
+  
+    <li><a href="./HomeController.html">HomeController</a>
+  
+    <li><a href="./HomeHelper.html">HomeHelper</a>
+  
+    <li><a href="./Move.html">Move</a>
+  
+    <li><a href="./MoveCard.html">MoveCard</a>
+  
+    <li><a href="./PileBehavior.html">PileBehavior</a>
+  
+    <li><a href="./PlayCard.html">PlayCard</a>
+  
+    <li><a href="./Player.html">Player</a>
+  
+    <li><a href="./PlayerAction.html">PlayerAction</a>
+  
+    <li><a href="./PlayerController.html">PlayerController</a>
+  
+    <li><a href="./PlayerHelper.html">PlayerHelper</a>
+  
+    <li><a href="./PlayerSession.html">PlayerSession</a>
+  
+    <li><a href="./Slot.html">Slot</a>
+  
+    <li><a href="./Token.html">Token</a>
+  
+    <li><a href="./Turn.html">Turn</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class Game</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-find_available_games" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">find_available_games</span><span
+            class="method-args">(player)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Finds all games for which the specified can join. A players may join a game
+that has open slots or that players has already previously joined. The game
+must also be currently active.</p>
+
+<p>Returns an array of games that players can joins</p>
+
+<p>@param [Player] player @return [Array]</p>
+          
+
+          
+          <div class="method-source-code" id="find_available_games-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 102</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">Game</span>.<span class="ruby-identifier">find_available_games</span>(<span class="ruby-identifier">player</span>)
+  <span class="ruby-identifier">gt</span> = <span class="ruby-constant">Game</span>.<span class="ruby-identifier">arel_table</span>
+  <span class="ruby-identifier">st</span> = <span class="ruby-constant">Slot</span>.<span class="ruby-identifier">arel_table</span>;
+  <span class="ruby-identifier">pt</span> = <span class="ruby-constant">GamePlayer</span>.<span class="ruby-identifier">arel_table</span>
+
+  <span class="ruby-identifier">open_games</span> = <span class="ruby-constant">Game</span>.<span class="ruby-identifier">find_by_sql</span>( <span class="ruby-identifier">gt</span>.<span class="ruby-identifier">join</span>(<span class="ruby-identifier">st</span>)
+                                   .<span class="ruby-identifier">on</span>(<span class="ruby-identifier">gt</span>[<span class="ruby-value">:id</span>].<span class="ruby-identifier">eq</span>(<span class="ruby-identifier">st</span>[<span class="ruby-value">:game_id</span>]))
+                                   .<span class="ruby-identifier">where</span>(<span class="ruby-identifier">gt</span>[<span class="ruby-value">:active</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">st</span>[<span class="ruby-value">:available</span>])
+                                   .<span class="ruby-identifier">project</span>(<span class="ruby-identifier">gt</span>.<span class="ruby-identifier">columns</span>)
+                                   .<span class="ruby-identifier">to_sql</span>)
+
+  <span class="ruby-identifier">joined_games</span> = <span class="ruby-constant">Game</span>.<span class="ruby-identifier">find_by_sql</span>(<span class="ruby-identifier">gt</span>.<span class="ruby-identifier">join</span>(<span class="ruby-identifier">pt</span>)
+                                    .<span class="ruby-identifier">on</span>(<span class="ruby-identifier">gt</span>[<span class="ruby-value">:id</span>].<span class="ruby-identifier">eq</span>(<span class="ruby-identifier">pt</span>[<span class="ruby-value">:game_id</span>]))
+                                    .<span class="ruby-identifier">where</span>(<span class="ruby-identifier">gt</span>[<span class="ruby-value">:active</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">pt</span>[<span class="ruby-value">:player_id</span>].<span class="ruby-identifier">eq</span>(<span class="ruby-identifier">player</span>.<span class="ruby-identifier">id</span>))
+                                    .<span class="ruby-identifier">project</span>(<span class="ruby-identifier">gt</span>.<span class="ruby-identifier">columns</span>)
+                                    .<span class="ruby-identifier">to_sql</span>)
+
+  <span class="ruby-identifier">available_games</span> = (<span class="ruby-identifier">open_games</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">joined_games</span>).<span class="ruby-identifier">uniq</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">game</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">game</span>.<span class="ruby-identifier">id</span>
+  <span class="ruby-keyword">end</span>
+
+
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">available_games</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- find_available_games-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- find_available_games-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-add_player" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">add_player</span><span
+            class="method-args">(player)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>@param [Player] player</p>
+          
+
+          
+          <div class="method-source-code" id="add_player-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 62</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">add_player</span>(<span class="ruby-identifier">player</span>)
+  <span class="ruby-comment"># only add players that have not already joined the current game</span>
+  <span class="ruby-keyword">unless</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">players</span>.<span class="ruby-identifier">include?</span> <span class="ruby-identifier">player</span>
+      <span class="ruby-keyword">self</span>.<span class="ruby-identifier">players</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">player</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- add_player-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- add_player-method -->
+
+    
+      <div id="method-i-add_slot" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">add_slot</span><span
+            class="method-args">(slot = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>@param [Slot] slot</p>
+          
+
+          
+          <div class="method-source-code" id="add_slot-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 45</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">add_slot</span>(<span class="ruby-identifier">slot</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-identifier">slot</span> = <span class="ruby-constant">Slot</span>.<span class="ruby-identifier">create</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">slot</span>.<span class="ruby-identifier">nil?</span>
+  <span class="ruby-identifier">slot</span>.<span class="ruby-identifier">sequence</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">slots</span>.<span class="ruby-identifier">count</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">slots</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">slot</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- add_slot-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- add_slot-method -->
+
+    
+      <div id="method-i-add_slots" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">add_slots</span><span
+            class="method-args">(count)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>@param [Integer] count</p>
+          
+
+          
+          <div class="method-source-code" id="add_slots-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 52</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">add_slots</span>(<span class="ruby-identifier">count</span>)
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">add_slot</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- add_slots-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- add_slots-method -->
+
+    
+      <div id="method-i-advance_turn" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">advance_turn</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="advance_turn-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 69</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">advance_turn</span>
+  <span class="ruby-comment"># If no slot is active or we have reach the last slot start over with 1 (it is the first players turn)</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">active_slot</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">||</span> (<span class="ruby-keyword">self</span>.<span class="ruby-identifier">active_slot</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">slots</span>.<span class="ruby-identifier">max_by</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">slot</span><span class="ruby-operator">|</span> <span class="ruby-identifier">slot</span>.<span class="ruby-identifier">sequence</span> }.<span class="ruby-identifier">sequence</span>)
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">active_slot</span> = <span class="ruby-value">1</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-comment"># Move to the next slot in sequence (move to the next players turn)</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">active_slot</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">save</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- advance_turn-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- advance_turn-method -->
+
+    
+      <div id="method-i-can_add_player-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">can_add_player?</span><span
+            class="method-args">(player)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>@param [Player] player</p>
+          
+
+          
+          <div class="method-source-code" id="can_add_player-3F-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 57</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">can_add_player?</span>(<span class="ruby-identifier">player</span>)
+  <span class="ruby-operator">!</span><span class="ruby-operator">!</span><span class="ruby-keyword">self</span>.<span class="ruby-identifier">players</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">player</span>) <span class="ruby-operator">||</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">slots</span>.<span class="ruby-identifier">any?</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">slot</span><span class="ruby-operator">|</span> <span class="ruby-identifier">slot</span>.<span class="ruby-identifier">available</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">true</span> }
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- can_add_player-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- can_add_player-3F-method -->
+
+    
+      <div id="method-i-can_start-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">can_start?</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="can_start-3F-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 14</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">can_start?</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">slots</span>.<span class="ruby-identifier">all?</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">slot</span><span class="ruby-operator">|</span> <span class="ruby-identifier">slot</span>.<span class="ruby-identifier">available</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">false</span> }
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- can_start-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- can_start-3F-method -->
+
+    
+      <div id="method-i-deal_cards" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">deal_cards</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="deal_cards-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 35</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">deal_cards</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">game_players</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">player</span><span class="ruby-operator">|</span>
+    <span class="ruby-value">7</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span>
+      <span class="ruby-identifier">card</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">draw_pile</span>.<span class="ruby-identifier">draw_card</span>
+      <span class="ruby-identifier">player</span>.<span class="ruby-identifier">hand</span>.<span class="ruby-identifier">cards</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">card</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- deal_cards-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- deal_cards-method -->
+
+    
+      <div id="method-i-play_game" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">play_game</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="play_game-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 81</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">play_game</span>
+  <span class="ruby-identifier">start</span>
+  <span class="ruby-identifier">winner</span> = <span class="ruby-keyword">nil</span>
+
+  <span class="ruby-comment"># A winner is declared when one of the players runs out of cards</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">winner</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">game_players</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">game_player</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">winner</span> = <span class="ruby-identifier">game_player</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">game_player</span>.<span class="ruby-identifier">hand</span>.<span class="ruby-identifier">cards</span>.<span class="ruby-identifier">empty?</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- play_game-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- play_game-method -->
+
+    
+      <div id="method-i-player_status" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">player_status</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="player_status-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 127</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">player_status</span>
+  <span class="ruby-identifier">active_player</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">whose_turn</span>
+
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">game_players</span>.<span class="ruby-identifier">map</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">p</span><span class="ruby-operator">|</span>
+    {<span class="ruby-identifier">players</span><span class="ruby-operator">:</span> <span class="ruby-identifier">p</span>.<span class="ruby-identifier">player</span>.<span class="ruby-identifier">screen_name</span>, <span class="ruby-identifier">active</span><span class="ruby-operator">:</span> <span class="ruby-identifier">active_player</span>.<span class="ruby-identifier">id</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">p</span>.<span class="ruby-identifier">id</span> }
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- player_status-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- player_status-method -->
+
+    
+      <div id="method-i-start" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">start</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="start-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 18</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">start</span>
+  <span class="ruby-keyword">unless</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">active</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">start_date</span> = <span class="ruby-constant">DateTime</span>.<span class="ruby-identifier">now</span>
+    <span class="ruby-identifier">deal_cards</span>
+    <span class="ruby-identifier">advance_turn</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">active</span> = <span class="ruby-keyword">true</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">save!</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- start-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- start-method -->
+
+    
+      <div id="method-i-whose_turn" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">whose_turn</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>returns the players of the active turn @return [GamePlayer]</p>
+          
+
+          
+          <div class="method-source-code" id="whose_turn-source">
+            <pre><span class="ruby-comment"># File app/models/game.rb, line 30</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">whose_turn</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">advance_turn</span> <span class="ruby-keyword">unless</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">active_slot</span>
+  <span class="ruby-identifier">game_players</span>.<span class="ruby-identifier">joins</span>(<span class="ruby-value">:slot</span>).<span class="ruby-identifier">joins</span>(<span class="ruby-value">:game</span>).<span class="ruby-identifier">where</span>(<span class="ruby-string">'games.active_slot = slots.sequence'</span>).<span class="ruby-identifier">first</span>.<span class="ruby-identifier">player</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- whose_turn-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- whose_turn-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.2.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

@@ -1,0 +1,24 @@
+div#tab-container
+  ul
+    li
+      a href="#game-tab" Game
+    li
+      a href="#score-board-tab" Score Board
+    li
+      a href="#turn-history-tab" History
+  #game-tab
+    div style="padding: 20px; text-align: right"
+      button#btnUndo Undo
+      button#btnReset Undo All
+      button#btnEndTurn End Turn
+      button#btnOptions Options
+    #draw-pile
+      = image_tag  "/assets/cardback.png", alt:"draw card", id: "imgDrawCard"
+    #main-content
+      = show_board @board
+    = show_player_hand @hand
+  #score-board-tab TODO : Draw Score Board
+  #turn-history-tab TODO: Draw History
+
+javascript:
+ gamePlay();

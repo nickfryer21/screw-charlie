@@ -1,0 +1,26 @@
+        Prefix Verb   URI Pattern                        Controller#Action
+     game_join PUT    /game/:game_id/join(.:format)      game#join
+     game_play GET    /game/:game_id/play(.:format)      game#play
+game_draw_card GET    /game/:game_id/draw_card(.:format) game#draw_card
+    game_index GET    /game(.:format)                    game#index
+               POST   /game(.:format)                    game#create
+      new_game GET    /game/new(.:format)                game#new
+     edit_game GET    /game/:id/edit(.:format)           game#edit
+          game GET    /game/:id(.:format)                game#show
+               PATCH  /game/:id(.:format)                game#update
+               PUT    /game/:id(.:format)                game#update
+               DELETE /game/:id(.:format)                game#destroy
+  player_index GET    /player(.:format)                  player#index
+               POST   /player(.:format)                  player#create
+    new_player GET    /player/new(.:format)              player#new
+   edit_player GET    /player/:id/edit(.:format)         player#edit
+        player GET    /player/:id(.:format)              player#show
+               PATCH  /player/:id(.:format)              player#update
+               PUT    /player/:id(.:format)              player#update
+               DELETE /player/:id(.:format)              player#destroy
+    home_index GET    /home/index(.:format)              home#index
+player_session POST   /player_session(.:format)          player_sessions#create
+               GET    /player_session(.:format)          player_sessions#show
+               PATCH  /player_session(.:format)          player_sessions#update
+               PUT    /player_session(.:format)          player_sessions#update
+               DELETE /player_session(.:format)          player_sessions#destroy
