@@ -27,6 +27,8 @@ class Card < ActiveRecord::Base
 
   before_update :on_pile_changed
 
+  RANK_MAPPING = {1 => 'Ace', 11 => 'Jack', 12 => 'Queen', 13 => 'King'}
+
   def client_id
     unless read_attribute(:client_id)
       write_attribute(:client_id, Token.new.value)
@@ -37,18 +39,7 @@ class Card < ActiveRecord::Base
   end
 
   def to_s
-    case self.rank
-      when 1 then
-        'Ace'
-      when 11 then
-        'Jack'
-      when 12 then
-        'Queen'
-      when 13 then
-        'King'
-      else
-        self.rank.to_s
-    end + ' of ' + self.suit.to_s
+    "#{RANK_MAPPING.fetch(self.rank, self.rank.to_s)} of #{self.suit.to_s.capitalize}"
   end
 
   def points

@@ -3,46 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97dd3fda-ba06-43ee-8818-edf9cdff236c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ScrewCharlie.iml" afterPath="$PROJECT_DIR$/.idea/ScrewCharlie.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/create.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/create.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/create.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/create.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player_session/create.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player_session/create.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/destroy.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/destroy.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/destroy.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/destroy.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player_session/destroy.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player_session/destroy.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/edit.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/edit.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/edit.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/edit.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/game.rb" afterPath="$PROJECT_DIR$/app/models/game.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/game_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/game_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/game_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/game_helper_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/game_spec.rb" afterPath="$PROJECT_DIR$/spec/models/game_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/hand_spec.rb" afterPath="$PROJECT_DIR$/spec/models/hand_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/home_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/home_helper_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/index.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/index.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/home/index.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/home/index.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/index.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/index.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/join.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/join.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/move_card_spec.rb" afterPath="$PROJECT_DIR$/spec/models/move_card_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/new.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/new.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/new.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/new.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/play.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/play.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/play_card_spec.rb" afterPath="$PROJECT_DIR$/spec/models/play_card_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/player_action_spec.rb" afterPath="$PROJECT_DIR$/spec/models/player_action_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/player_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/player_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/player_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/player_helper_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/player_session_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/player_session_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/player_session_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/player_session_helper_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/player_session_spec.rb" afterPath="$PROJECT_DIR$/spec/models/player_session_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/player_spec.rb" afterPath="$PROJECT_DIR$/spec/models/player_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/show.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/show.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/show.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/show.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player_session/show.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player_session/show.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/slot_spec.rb" afterPath="$PROJECT_DIR$/spec/models/slot_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/turn_spec.rb" afterPath="$PROJECT_DIR$/spec/models/turn_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/game/update.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/game/update.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player/update.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player/update.html.slim_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/player_session/update.html.slim_spec.rb" afterPath="$PROJECT_DIR$/spec/views/player_session/update.html.slim_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/card.rb" afterPath="$PROJECT_DIR$/app/models/card.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScrewCharlie.iws" />
@@ -62,8 +23,8 @@
     <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__deck_spec___ScrewCharlie.coverage" NAME="Run spec 'deck_spec': ScrewCharlie Coverage Results" MODIFIED="1390657996536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__index_html_slim_spec___ScrewCharlie.coverage" NAME="Run spec 'index.html.slim_spec': ScrewCharlie Coverage Results" MODIFIED="1390660269627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__draw_pile_spec___ScrewCharlie.coverage" NAME="Run spec 'draw_pile_spec': ScrewCharlie Coverage Results" MODIFIED="1390660835227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__card_spec___ScrewCharlie.coverage" NAME="Run spec 'card_spec': ScrewCharlie Coverage Results" MODIFIED="1390661348049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__hand_spec___ScrewCharlie.coverage" NAME="Run spec 'hand_spec': ScrewCharlie Coverage Results" MODIFIED="1390659279982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
-    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__card_spec___ScrewCharlie.coverage" NAME="Run spec 'card_spec': ScrewCharlie Coverage Results" MODIFIED="1390659313438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@All_specs_in_views__ScrewCharlie.coverage" NAME="All specs in views: ScrewCharlie Coverage Results" MODIFIED="1390660444564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@db_seed__ScrewCharlie.coverage" NAME="db:seed: ScrewCharlie Coverage Results" MODIFIED="1390659124332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@db_migrate__ScrewCharlie.coverage" NAME="db:migrate: ScrewCharlie Coverage Results" MODIFIED="1390658973346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
@@ -85,15 +46,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="update.html.slim_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/views/player/update.html.slim_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="create.html.slim_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/views/player_session/create.html.slim_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -157,10 +109,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="draw_pile_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="draw_pile_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/draw_pile_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.152439" vertical-offset="378" max-vertical-offset="714">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="card.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/card.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="27" selection-start="630" selection-end="630" vertical-scroll-proportion="0.6402439" vertical-offset="420" max-vertical-offset="2310">
               <folding />
             </state>
           </provider>
@@ -197,7 +158,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/helpers/game_helper.rb" />
-        <option value="$PROJECT_DIR$/app/models/card.rb" />
         <option value="$PROJECT_DIR$/spec/models/deck_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/draw_card_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/draw_pile_spec.rb" />
@@ -247,6 +207,7 @@
         <option value="$PROJECT_DIR$/spec/views/player_session/update.html.slim_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/game_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/game.rb" />
+        <option value="$PROJECT_DIR$/app/models/card.rb" />
       </list>
     </option>
   </component>
@@ -496,7 +457,7 @@
       <recent name="C:\Working\ScrewCharlie\spec\factories" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'draw_pile_spec': ScrewCharlie">
+  <component name="RunManager" selected="RSpec.Run spec 'card_spec': ScrewCharlie">
     <configuration default="false" name="All specs in models: ScrewCharlie" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ScrewCharlie" />
@@ -518,42 +479,6 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/spec/models" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="All specs in views: ScrewCharlie" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="ScrewCharlie" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/spec/views" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
@@ -663,6 +588,42 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/draw_pile_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run spec 'card_spec': ScrewCharlie" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ScrewCharlie" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/card_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
@@ -841,18 +802,18 @@
       <item index="2" class="java.lang.String" itemvalue="Rake.test" />
       <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in models: ScrewCharlie" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.All specs in views: ScrewCharlie" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.Run spec 'game_spec': ScrewCharlie" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.Run spec 'game_player_spec': ScrewCharlie" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.Run spec 'draw_pile_spec': ScrewCharlie" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.Run spec 'game_spec': ScrewCharlie" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.Run spec 'game_player_spec': ScrewCharlie" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.Run spec 'draw_pile_spec': ScrewCharlie" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.Run spec 'card_spec': ScrewCharlie" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'draw_pile_spec': ScrewCharlie" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'game_player_spec': ScrewCharlie" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'game_spec': ScrewCharlie" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in models: ScrewCharlie" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in views: ScrewCharlie" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'card_spec': ScrewCharlie" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'draw_pile_spec': ScrewCharlie" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'game_player_spec': ScrewCharlie" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'game_spec': ScrewCharlie" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in models: ScrewCharlie" />
       </list>
     </recent_temporary>
   </component>
@@ -884,7 +845,11 @@
       <created>1390658600411</created>
       <updated>1390658600411</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;">
+      <created>1390661015661</created>
+      <updated>1390661015661</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -928,7 +893,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;" />
+    <MESSAGE value="# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,13 +992,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/deck.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1932">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499">
           <folding />
         </state>
       </provider>
@@ -1300,7 +1259,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/draw_pile_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.152439" vertical-offset="378" max-vertical-offset="714">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/card.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="27" selection-start="630" selection-end="630" vertical-scroll-proportion="0.6402439" vertical-offset="420" max-vertical-offset="2310">
           <folding />
         </state>
       </provider>
