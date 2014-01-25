@@ -29,6 +29,8 @@ class Card < ActiveRecord::Base
 
   RANK_MAPPING = {1 => 'Ace', 11 => 'Jack', 12 => 'Queen', 13 => 'King'}
 
+  CARD_SUITS = [:Hearts, :Clubs, :Spades, :Diamonds]
+
   def client_id
     unless read_attribute(:client_id)
       write_attribute(:client_id, Token.new.value)
@@ -60,7 +62,7 @@ class Card < ActiveRecord::Base
   end
 
   def has_valid_suit?
-    unless [:Hearts, :Clubs, :Spades, :Diamonds].include? self.suit.to_sym
+    unless CARD_SUITS.include? self.suit.to_sym
       self.errors.add(:base, "Never heard of that suit")
     end
   end

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97dd3fda-ba06-43ee-8818-edf9cdff236c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ScrewCharlie.iml" afterPath="$PROJECT_DIR$/.idea/ScrewCharlie.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/card.rb" afterPath="$PROJECT_DIR$/app/models/card.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -121,7 +120,7 @@
       <file leaf-file-name="card.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/card.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="27" selection-start="630" selection-end="630" vertical-scroll-proportion="0.6402439" vertical-offset="420" max-vertical-offset="2310">
+            <state line="64" column="21" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.5518293" vertical-offset="1163" max-vertical-offset="2352">
               <folding />
             </state>
           </provider>
@@ -423,6 +422,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScrewCharlie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screw-charlie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScrewCharlie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screw-charlie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -849,7 +880,11 @@
       <created>1390661015661</created>
       <updated>1390661015661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;">
+      <created>1390661361726</created>
+      <updated>1390661361726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -870,7 +905,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2735043" sideWeight="0.5649652" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5838852" sideWeight="0.7106227" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5838852" sideWeight="0.7106227" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Routes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42936116" sideWeight="0.5649652" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1266,7 +1301,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/card.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="27" selection-start="630" selection-end="630" vertical-scroll-proportion="0.6402439" vertical-offset="420" max-vertical-offset="2310">
+        <state line="64" column="21" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.5518293" vertical-offset="1163" max-vertical-offset="2352">
           <folding />
         </state>
       </provider>
