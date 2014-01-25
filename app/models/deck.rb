@@ -38,6 +38,8 @@ class Deck < ActiveRecord::Base
     end
   end
 
+  # Determine if a deck is a book.
+  # A book consists of at least 3 cards all of which are the same rank
   def book?
     (self.cards.length >= 3) && (self.cards.all? { |card| card.rank == self.cards.first.rank })
   end
@@ -46,12 +48,15 @@ class Deck < ActiveRecord::Base
 
   end
 
+  # Determine if a deck is a run.
+  # A run is a deck of at least 3 cards that can be ordered sequentially.
+  # An ace can be considers either a high or low card.
   def run?
     if (self.cards.length >= 3) && (self.cards.all? { |card| card.suit == self.cards.first.suit })
       if self.ace_high_run? then
         return true
       else
-        sorted = self.cards.sort { |c1, c2| c1.rank <=> c2.rank }
+        sorted = self.cards.sort { |c1, c2| c1.rank <=>  c2.rank }
         rank = sorted.first.rank
 
         sorted.each do |card|
@@ -68,6 +73,8 @@ class Deck < ActiveRecord::Base
 
   protected
 
+  # Determine if a deck would be a valid run if the an ace is
+  # treated as a high rank card.
   def ace_high_run?
     sorted = self.cards.sort { |c1, c2| c1.rank <=> c2.rank }
     rank = sorted.first.rank

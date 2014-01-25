@@ -15,7 +15,6 @@ require_relative '../../lib/utils/token'
 
 class Card < ActiveRecord::Base
 
-
   belongs_to :pile, :polymorphic => true
 
   validate :rank_in_range?
