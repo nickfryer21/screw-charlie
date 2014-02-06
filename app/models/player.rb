@@ -4,6 +4,7 @@
 #
 #  id          :integer          not null, primary key
 #  screen_name :string(255)
+#  password    :string(20)
 #
 
 class Player < ActiveRecord::Base
