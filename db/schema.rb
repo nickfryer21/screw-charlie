@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130906040449) do
+ActiveRecord::Schema.define(version: 20140206043125) do
 
   create_table "boards", force: true do |t|
     t.integer "game_id"
@@ -110,6 +110,7 @@ ActiveRecord::Schema.define(version: 20130906040449) do
 
   create_table "players", force: true do |t|
     t.string "screen_name"
+    t.string "password",    limit: 20
   end
 
   create_table "slots", force: true do |t|

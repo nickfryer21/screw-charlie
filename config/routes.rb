@@ -8,6 +8,7 @@ ScrewCharlie::Application.routes.draw do
 
   resources :player
   get 'home/index'
+  post 'home/login'
 
   resource :player_session, :only => [:show, :create, :update, :destroy]
 

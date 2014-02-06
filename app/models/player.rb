@@ -14,4 +14,8 @@ class Player < ActiveRecord::Base
   def self.get_player_options_for_select
     Player.all.map { |player| [player.screen_name, player.id]}
   end
+
+  def self.find_by_credentials(username, password)
+    Player.where(screen_name: username, password: password).first
+  end
 end

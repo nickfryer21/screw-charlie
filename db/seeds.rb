@@ -39,15 +39,15 @@ class SeedHelper
   end
 
   def build_players
-    Player.create! screen_name: 'David'
-    Player.create! screen_name: 'Laura'
-    Player.create! screen_name: 'Lin'
-    Player.create! screen_name: 'Jaime'
-    Player.create! screen_name: 'Dan'
-    Player.create! screen_name: 'Jeff'
-    Player.create! screen_name: 'Karen'
-    Player.create! screen_name: 'Betty'
-    Player.create! screen_name: 'Noalea'
+    Player.create! screen_name: 'David', password: 'david1'
+    Player.create! screen_name: 'Laura', password: 'laura1'
+    Player.create! screen_name: 'Lin', password: 'lin1'
+    Player.create! screen_name: 'Jaime', password: 'jamie1'
+    Player.create! screen_name: 'Dan', password: 'dan1'
+    Player.create! screen_name: 'Jeff', password: 'jeff1'
+    Player.create! screen_name: 'Karen', password: 'karen1'
+    Player.create! screen_name: 'Betty', password: 'betty1'
+    Player.create! screen_name: 'Noalea', password: 'noalea1'
 
     self.players = Hash[*Player.all.map { |p| [p.screen_name, p] }.flatten]
   end

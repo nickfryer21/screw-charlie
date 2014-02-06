@@ -1,2 +1,16 @@
-javascript:
-  gameIndex();
+table
+  tr
+    th Game #
+    th Title
+    th Start DAte
+    th End Date
+    th Active Slot
+    th Active
+  - @games.each do |game|
+    tr
+      td = game.id
+      td = game.title
+      td = game.start_date
+      td = game.end_date
+      td = game.active_slot
+      td = game.active?
