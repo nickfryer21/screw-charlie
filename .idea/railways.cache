@@ -1,4 +1,5 @@
         Prefix Verb   URI Pattern                        Controller#Action
+    deck_index GET    /deck/index(.:format)              deck#index
      game_join PUT    /game/:game_id/join(.:format)      game#join
      game_play GET    /game/:game_id/play(.:format)      game#play
 game_draw_card GET    /game/:game_id/draw_card(.:format) game#draw_card
@@ -19,6 +20,7 @@ game_draw_card GET    /game/:game_id/draw_card(.:format) game#draw_card
                PUT    /player/:id(.:format)              player#update
                DELETE /player/:id(.:format)              player#destroy
     home_index GET    /home/index(.:format)              home#index
+    home_login POST   /home/login(.:format)              home#login
 player_session POST   /player_session(.:format)          player_sessions#create
                GET    /player_session(.:format)          player_sessions#show
                PATCH  /player_session(.:format)          player_sessions#update

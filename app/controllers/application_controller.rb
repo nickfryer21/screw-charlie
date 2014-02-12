@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   # @return [Hash]
   attr_accessor :model
 
-  before_filter :load_resources
+  before_filter :load_resources, :authenticate_user!
 
   respond_to :html, :json, :xml
 
@@ -19,5 +19,9 @@ class ApplicationController < ActionController::Base
 
   def load_resources
     self.current_session = PlayerSession.find_by_token(cookies[:screwcharlie_token])
+  end
+
+  def current_player
+    Player.where(user_id: current_user.id).first!
   end
 end

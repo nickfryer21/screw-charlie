@@ -3,6 +3,7 @@ class GameController < ApplicationController
 
   # [url] GET game(.:format)
   def index
+    @games = Game.all
   end
 
   # [url] GET game/:id/show(.:format)

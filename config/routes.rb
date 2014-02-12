@@ -1,4 +1,5 @@
 ScrewCharlie::Application.routes.draw do
+  devise_for :users
   get "deck/index"
   resources :game do
     put :join
@@ -8,6 +9,7 @@ ScrewCharlie::Application.routes.draw do
 
   resources :player
   get 'home/index'
+  post 'home/login'
 
   resource :player_session, :only => [:show, :create, :update, :destroy]
 
