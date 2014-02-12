@@ -20,4 +20,8 @@ class ApplicationController < ActionController::Base
   def load_resources
     self.current_session = PlayerSession.find_by_token(cookies[:screwcharlie_token])
   end
+
+  def current_player
+    Player.where(user_id: current_user.id).first!
+  end
 end

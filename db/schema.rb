@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140212044626) do
+ActiveRecord::Schema.define(version: 20140212050846) do
 
   create_table "boards", force: true do |t|
     t.integer "game_id"
@@ -109,9 +109,11 @@ ActiveRecord::Schema.define(version: 20140212044626) do
   add_index "player_sessions", ["player_id"], name: "index_player_sessions_on_player_id", using: :btree
 
   create_table "players", force: true do |t|
-    t.string "screen_name"
-    t.string "password",    limit: 20
+    t.string  "screen_name"
+    t.integer "user_id"
   end
+
+  add_index "players", ["user_id"], name: "index_players_on_user_id", using: :btree
 
   create_table "slots", force: true do |t|
     t.integer "game_id"

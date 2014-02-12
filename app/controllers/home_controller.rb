@@ -1,6 +1,8 @@
 class HomeController < ApplicationController
   def index
 
+  @player = current_player
+
   end
 
   def login
