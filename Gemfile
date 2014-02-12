@@ -53,4 +53,5 @@ end
 # gem 'capistrano', group: :development
 gem 'annotate'
 gem 'rabl'
+gem 'devise'
 
