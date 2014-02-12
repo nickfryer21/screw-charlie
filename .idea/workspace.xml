@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97dd3fda-ba06-43ee-8818-edf9cdff236c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ScrewCharlie.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/David.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/railways.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__ScrewCharlie.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__ScrewCharlie.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="ScrewCharlie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +47,8 @@
     <SUITE FILE_PATH="coverage/ScrewCharlie@db_seed__ScrewCharlie.coverage" NAME="db:seed: ScrewCharlie Coverage Results" MODIFIED="1390668953823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@db_migrate__ScrewCharlie.coverage" NAME="db:migrate: ScrewCharlie Coverage Results" MODIFIED="1390668938024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@Development__ScrewCharlie.coverage" NAME="Development: ScrewCharlie Coverage Results" MODIFIED="1390668796764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
-    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__game_spec___ScrewCharlie.coverage" NAME="Run spec 'game_spec': ScrewCharlie Coverage Results" MODIFIED="1390660734387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__game_player_spec___ScrewCharlie.coverage" NAME="Run spec 'game_player_spec': ScrewCharlie Coverage Results" MODIFIED="1390660753116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
+    <SUITE FILE_PATH="coverage/ScrewCharlie@Run_spec__game_spec___ScrewCharlie.coverage" NAME="Run spec 'game_spec': ScrewCharlie Coverage Results" MODIFIED="1390660734387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@All_specs_in_controllers__ScrewCharlie.coverage" NAME="All specs in controllers: ScrewCharlie Coverage Results" MODIFIED="1390660195490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
     <SUITE FILE_PATH="coverage/ScrewCharlie@All_specs_in_spec__ScrewCharlie.coverage" NAME="All specs in spec: ScrewCharlie Coverage Results" MODIFIED="1390659512715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ScrewCharlie" />
   </component>
@@ -53,10 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deck.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deck.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/deck.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="32" selection-start="1623" selection-end="1623" vertical-scroll-proportion="2.5128205" vertical-offset="126" max-vertical-offset="2079">
+            <state line="76" column="32" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2079">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="6" selection-start="482" selection-end="482" vertical-scroll-proportion="0.61130136" vertical-offset="0" max-vertical-offset="584">
               <folding />
             </state>
           </provider>
@@ -83,7 +112,7 @@
       <file leaf-file-name="home_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
               <folding />
             </state>
           </provider>
@@ -92,7 +121,7 @@
       <file leaf-file-name="index.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="33" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+            <state line="0" column="33" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
               <folding />
             </state>
           </provider>
@@ -119,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/models/draw_card_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/draw_pile_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/game_player_spec.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
@@ -170,6 +198,7 @@
         <option value="$PROJECT_DIR$/app/views/home/index.html.slim" />
         <option value="$PROJECT_DIR$/app/models/card.rb" />
         <option value="$PROJECT_DIR$/app/models/deck.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -230,6 +259,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -249,43 +279,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScrewCharlie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screw-charlie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScrewCharlie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screw-charlie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="appearance" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyModuleStructureConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -377,7 +378,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs>
-        <env name="RAILS_ENV" value="test" />
+        <env name="RAILS_ENV" value="development" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
@@ -404,9 +405,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-      </envs>
+      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
@@ -631,12 +630,10 @@
       <item index="8" class="java.lang.String" itemvalue="RSpec.Run spec 'deck_spec': ScrewCharlie" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'deck_spec': ScrewCharlie" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.db:seed: ScrewCharlie" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate: ScrewCharlie" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.db:create: ScrewCharlie" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'card_spec': ScrewCharlie" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:seed: ScrewCharlie" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate: ScrewCharlie" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'deck_spec': ScrewCharlie" />
       </list>
     </recent_temporary>
   </component>
@@ -684,24 +681,24 @@
     <editor active="false" />
     <layout>
       <window_info id="Dilbert" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32599118" sideWeight="0.7557998" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32560706" sideWeight="0.7557998" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2802198" sideWeight="0.5649652" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39845476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4348786" sideWeight="0.2893773" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2832723" sideWeight="0.5649652" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5817308" sideWeight="0.7106227" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Routes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42936116" sideWeight="0.5649652" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -721,7 +718,8 @@
     </option>
     <MESSAGE value="&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;" />
     <MESSAGE value="# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: David &lt;david@linuxmint.linuxmint-domain&gt;&#10;#&#10;# On branch master&#10;# Changes not staged for commit:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)&#10;#   (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)&#10;#&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/ScrewCharlie.iml&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/helpers/game_helper.rb&#10;#&#9;modified:   app/models/board.rb&#10;#&#9;modified:   app/models/card.rb&#10;#&#9;modified:   app/models/deck.rb&#10;#&#9;modified:   app/models/draw_card.rb&#10;#&#9;modified:   app/models/draw_pile.rb&#10;#&#9;modified:   app/models/game.rb&#10;#&#9;modified:   app/models/game_player.rb&#10;#&#9;modified:   app/models/hand.rb&#10;#&#9;modified:   app/models/move.rb&#10;#&#9;modified:   app/models/move_card.rb&#10;#&#9;modified:   app/models/play_card.rb&#10;#&#9;modified:   app/models/player.rb&#10;#&#9;modified:   app/models/player_action.rb&#10;#&#9;modified:   app/models/player_session.rb&#10;#&#9;modified:   app/models/slot.rb&#10;#&#9;modified:   app/models/turn.rb&#10;#&#9;modified:   config/database.yml&#10;#&#9;modified:   config/routes.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;modified:   spec/factories/boards.rb&#10;#&#9;modified:   spec/factories/cards.rb&#10;#&#9;modified:   spec/factories/decks.rb&#10;#&#9;modified:   spec/factories/draw_cards.rb&#10;#&#9;modified:   spec/factories/draw_piles.rb&#10;#&#9;modified:   spec/factories/game_players.rb&#10;#&#9;modified:   spec/factories/games.rb&#10;#&#9;modified:   spec/factories/hands.rb&#10;#&#9;modified:   spec/factories/move_cards.rb&#10;#&#9;modified:   spec/factories/moves.rb&#10;#&#9;modified:   spec/factories/play_cards.rb&#10;#&#9;modified:   spec/factories/player_actions.rb&#10;#&#9;modified:   spec/factories/player_sessions.rb&#10;#&#9;modified:   spec/factories/players.rb&#10;#&#9;modified:   spec/factories/slots.rb&#10;#&#9;modified:   spec/factories/turns.rb&#10;#&#9;modified:   spec/models/board_spec.rb&#10;#&#9;modified:   spec/models/card_spec.rb&#10;#&#9;modified:   spec/models/deck_spec.rb&#10;#&#9;modified:   spec/models/draw_card_spec.rb&#10;#&#9;modified:   spec/models/draw_pile_spec.rb&#10;#&#9;modified:   spec/models/game_player_spec.rb&#10;#&#9;modified:   spec/models/game_spec.rb&#10;#&#9;modified:   spec/models/hand_spec.rb&#10;#&#9;modified:   spec/models/move_card_spec.rb&#10;#&#9;modified:   spec/models/play_card_spec.rb&#10;#&#9;modified:   spec/models/player_action_spec.rb&#10;#&#9;modified:   spec/models/player_session_spec.rb&#10;#&#9;modified:   spec/models/player_spec.rb&#10;#&#9;modified:   spec/models/slot_spec.rb&#10;#&#9;modified:   spec/models/turn_spec.rb&#10;#&#10;# Untracked files:&#10;#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)&#10;#&#10;#&#9;.idea/runConfigurations/&#10;#&#9;app/assets/javascripts/deck.js.coffee&#10;#&#9;app/assets/stylesheets/deck.css.scss&#10;#&#9;app/controllers/deck_controller.rb&#10;#&#9;app/helpers/deck_helper.rb&#10;#&#9;app/views/deck/&#10;#&#9;spec/controllers/deck_controller_spec.rb&#10;#&#9;spec/helpers/deck_helper_spec.rb&#10;#&#9;spec/views/deck/&#10;" />
+    <MESSAGE value="Merge branch 'development'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;config/database.example.yml&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'development'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;config/database.example.yml&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -739,13 +737,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="21" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0" vertical-offset="1163" max-vertical-offset="2352">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/game_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="25" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="3108" />
@@ -970,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+        <state line="0" column="33" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <folding />
         </state>
       </provider>
@@ -1005,7 +996,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/deck.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="32" selection-start="1623" selection-end="1623" vertical-scroll-proportion="2.5128205" vertical-offset="126" max-vertical-offset="2079">
+        <state line="76" column="32" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2079">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="6" selection-start="482" selection-end="482" vertical-scroll-proportion="0.61130136" vertical-offset="0" max-vertical-offset="584">
           <folding />
         </state>
       </provider>
