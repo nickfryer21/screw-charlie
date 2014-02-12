@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   # @return [Hash]
   attr_accessor :model
 
-  before_filter :load_resources
+  before_filter :load_resources, :authenticate_user!
 
   respond_to :html, :json, :xml
 
